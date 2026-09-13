@@ -199,10 +199,9 @@ Body: image (file field)
 | Training Platform  | Google Colab (Tesla T4 GPU, 15.6 GB VRAM) |
 | Training Time      | ~5-8 hours (20 epochs, batch=64)           |
 
-Training curves (loss, accuracy, learning rate) are saved at:
-```
-saved_model/finetuning_curves_custom.png
-```
+Training curves (loss, accuracy, learning rate):
+
+![Training Curves](saved_model/finetuning_curves_custom.png)
 
 ---
 
